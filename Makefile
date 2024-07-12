@@ -6,13 +6,13 @@
 #    By: madamou <madamou@contact.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/17 12:57:50 by madamou           #+#    #+#              #
-#    Updated: 2024/07/12 18:48:56 by madamou          ###   ########.fr        #
+#    Updated: 2024/07/13 01:02:39 by madamou          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = cc
 
-C_FLAGS = -Wall -Wextra -Werror -g3
+C_FLAGS = -Wall -Wextra -Werror
 
 SRCS_DIR = srcs/
 
@@ -51,9 +51,11 @@ $(OBJS_DIR)%.o : $(SRCS_DIR)%.c
 bonus :  $(BONUS)
 
 clean : 
-	rm -rf $(OBJS_DIR) 
+	make clean -C ./libft
+	rm -rf $(OBJS_DIR)
 
 fclean : clean
+	make fclean -C ./libft
 	rm -rf $(NAME) 
 
 re : fclean all

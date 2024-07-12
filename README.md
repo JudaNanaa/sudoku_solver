@@ -33,12 +33,12 @@ Après avoir compilé le programme, vous pouvez l'exécuter en utilisant la comm
 ```sh
 ./sudoku_solver maps/1.txt
 ```
-où input.txt est un fichier contenant la grille de Sudoku à résoudre. Le fichier doit être formaté de la manière suivante :
+où 1.txt est un fichier contenant la grille de Sudoku à résoudre. Le fichier doit être formaté de la manière suivante :
 
 Chaque ligne représente une ligne de la grille de Sudoku.
 Les nombres doivent être séparés par des espaces.
 Utilisez le chiffre 0 pour représenter les cases vides.
-Exemple de fichier input.txt 
+Exemple de fichier 1.txt 
 
 ```
 000000000
