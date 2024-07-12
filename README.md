@@ -8,8 +8,6 @@ Ce projet est un solveur de Sudoku écrit en C. Il utilise un Makefile pour faci
 - [Installation](#installation)
 - [Utilisation](#utilisation)
 - [Exemples](#exemples)
-- [Contribuer](#contribuer)
-- [Licence](#licence)
 
 ## Description
 
@@ -53,7 +51,7 @@ Exemple de fichier input.txt
 400502007
 080000090
 ```
-Exemples
+## Exemples
 Pour exécuter le programme avec un fichier d'entrée :
 
 ```
