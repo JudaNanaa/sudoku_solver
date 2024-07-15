@@ -58,3 +58,4 @@ Pour exécuter le programme avec un fichier d'entrée :
 ```
 Vous devriez voir la solution de la grille s'afficher sur la sortie standard.
 
+Dédicace à lsouc
